@@ -310,4 +310,28 @@ const sendMessage = async () => {
   font-weight: bold;
   color: #40a9ff;
 }
+
+:deep(.markdown-body table) {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: transparent;
+}
+:deep(.markdown-body th), :deep(.markdown-body td) {
+  border: 1px solid #ffffff;
+  padding: 8px 12px;
+  text-align: left;
+}
+:deep(.markdown-body th) {
+  background-color: transparent;
+  font-weight: 600;
+  color: #ffffff;
+}
+:deep(.markdown-body tr:nth-child(even)) {
+  background-color: transparent;
+}
+:deep(.markdown-body tr:hover) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
 </style>

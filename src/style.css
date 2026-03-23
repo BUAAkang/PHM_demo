@@ -32,6 +32,20 @@ html, body, #app {
   color: #c8ddef !important;
 }
 
+.el-dialog {
+  background: #112240 !important;
+  border: 1px solid #1a3a5c !important;
+}
+
+.el-dialog__title {
+  color: #e8f4fd !important;
+}
+
+.el-dialog__body {
+  color: #c8ddef !important;
+}
+
+
 .el-card__header {
   border-bottom-color: #1a3a5c !important;
   color: #e8f4fd !important;
